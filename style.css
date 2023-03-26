@@ -19,6 +19,7 @@ html {
     display: flex;
     height: 260px;
     align-items: end;
+    justify-content: center;
 }
 
 .bottom-div {

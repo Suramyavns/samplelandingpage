@@ -1,16 +1,21 @@
+html,
 body {
     width: 100%;
     height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: burlywood;
 }
 
 .mb-3 {
-    width: 460px;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .d-flex {
-    height: 761px;
     padding: 10rem;
-    background-color: burlywood;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -44,4 +49,16 @@ body {
     transform: scale(1.1);
     transition: 0.3s ease;
     color: aliceblue;
+}
+
+.subs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
